@@ -116,7 +116,7 @@ def training():
 
 
 def test(n):
-    print('Введите название изображения для тестирования (пример test_&.png)')
+    print('Введите название изображения для тестирования (пример my_own_images/test_&.png)')
     image_file_name = input('Имя - ')
     # use the filename to set the correct label
     label = image_file_name[-5:-4]
