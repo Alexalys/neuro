@@ -76,7 +76,7 @@ def training():
     train_dataset = []
     train_labels = []
 
-    for image_file_name in glob.glob('train_?.png'):
+    for image_file_name in glob.glob('my_own_images/train_?.png'):
         label = image_file_name[-5:-4]
         img_data = 0
 
